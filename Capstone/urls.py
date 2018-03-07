@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+admin.site.site_header = "Hickory Theatre"
+admin.site.index_title = "Information Manager"
 urlpatterns = [
     path('info-manager/', admin.site.urls),
 ]
