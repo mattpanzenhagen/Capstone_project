@@ -21,4 +21,5 @@ admin.site.index_title = "Information Manager"
 admin.site.site_url = "http://hickorytheatre.org"
 urlpatterns = [
     path('info-manager/', admin.site.urls),
+    path(r'^$', admin.site.urls),
 ]
