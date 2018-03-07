@@ -15,11 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+#hello
 admin.site.site_header = "Hickory Theatre"
 admin.site.index_title = "Information Manager"
 admin.site.site_url = "http://hickorytheatre.org"
 urlpatterns = [
-    path('info-manager/', admin.site.urls),
-    path(r'^$', admin.site.urls),
+   
+    path(r'', admin.site.urls)
 ]
