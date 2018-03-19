@@ -1,1 +1,0 @@
-web: gunicorn hickory_theatre.wsgi --log-file -
